@@ -1,0 +1,58 @@
+{
+  "name": "undernettv",
+  "version": "1.0.0",
+  "description": "UnderNet TV",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-chug": "^0.5.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-regex-replace": "^0.2.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-svg2png": "^2.0.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-version-number": "^0.1.7"
+  },
+  "dependencies": {
+    "npm": "^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OmegaTV/undernet.git"
+  },
+  "config": {
+    "type": "app",
+    "category": "apps",
+    "backgroundColor": "#171717",
+    "name": "UnderNet TV",
+    "legacy": true,
+    "description": "UnderNet TV",
+    "icons": {
+      "480": {
+        "logoNormal": "img/480/normal.png",
+        "logoActive": "img/480/active.png"
+      },
+      "576": {
+        "logoNormal": "img/576/normal.png",
+        "logoActive": "img/576/active.png"
+      },
+      "720": {
+        "logoNormal": "img/720/normal.png",
+        "logoActive": "img/720/active.png"
+      },
+      "1080": {
+        "logoNormal": "img/1080/normal.png",
+        "logoActive": "img/1080/active.png"
+      }
+    }
+  }
+}
